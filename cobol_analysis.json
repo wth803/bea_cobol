@@ -1,0 +1,195 @@
+[
+    {
+        "element_name": "ConsolidationCust",
+        "element_name_cn": "客户归并服务",
+        "description": "Implement customer consolidation by migrating account routing from source to target customer",
+        "description_cn": "实现客户归并，将源客户账户路由信息迁移至目标客户",
+        "program_id": "CustomerConsolidationService",
+        "source_lines": [
+            "59-62",
+            "65-68",
+            "72-83",
+            "87-98",
+            "102-107"
+        ]
+    },
+    {
+        "element_name": "QuryCustType",
+        "element_name_cn": "客户类型查询服务",
+        "description": "Implement customer type code query by customer number",
+        "description_cn": "实现按客户号查询客户类型代码",
+        "program_id": "QueryCustomerTypeService",
+        "source_lines": [
+            "91-95",
+            "135-144"
+        ]
+    },
+    {
+        "element_name": "QuryOvsCashWithdrReCtrFlg",
+        "element_name_cn": "境外取现控制标志查询服务",
+        "description": "Implement overseas cash withdrawal blacklist flag query by customer number",
+        "description_cn": "实现按客户号查询境外取现黑名单控制标志",
+        "program_id": "QueryOverseasCashWithdrawalControlFlagService",
+        "source_lines": [
+            "109-113"
+        ]
+    },
+    {
+        "element_name": "QuryPerCustChnlTxnCommond",
+        "element_name_cn": "对私客户渠道交易控制查询服务",
+        "description": "Implement personal customer channel transaction control command query",
+        "description_cn": "实现对私客户渠道交易控制指令的查询",
+        "program_id": "QueryPersonalCustomerChannelTxnCommandService",
+        "source_lines": [
+            "161-168"
+        ]
+    },
+    {
+        "element_name": "QuryPerCustInfoByCustNo",
+        "element_name_cn": "按客户号查询个人客户信息服务",
+        "description": "Implement comprehensive personal customer information query by customer number",
+        "description_cn": "实现按客户号综合查询个人客户基础及扩展信息",
+        "program_id": "QueryPersonalCustomerInfoByCustNoService",
+        "source_lines": [
+            "180-184"
+        ]
+    },
+    {
+        "element_name": "QuryPerCustNameListInfoByCustNo",
+        "element_name_cn": "对私客户名单信息查询服务",
+        "description": "Implement personal customer watchlist and name-list information query by customer number",
+        "description_cn": "实现按客户号查询对私客户名单信息",
+        "program_id": "QueryPersonalCustomerNameListService",
+        "source_lines": [
+            "131-135"
+        ]
+    },
+    {
+        "element_name": "QuryPerCustRiskLevel",
+        "element_name_cn": "对私客户风险等级查询服务",
+        "description": "Implement personal customer risk level and risk assessment result query",
+        "description_cn": "实现对私客户风险等级及风险评估结果的查询",
+        "program_id": "QueryPersonalCustomerRiskLevelService",
+        "source_lines": [
+            "132-136"
+        ]
+    },
+    {
+        "element_name": "QurySignRelationInfo",
+        "element_name_cn": "客户签约关系查询服务",
+        "description": "Implement customer signing relationship information query by customer number",
+        "description_cn": "实现按客户号查询客户签约关系信息",
+        "program_id": "QuerySignRelationInfoService",
+        "source_lines": [
+            "113-118",
+            "121-128",
+            "139-146"
+        ]
+    },
+    {
+        "element_name": "ConsolidationCustByAcctNo",
+        "element_name_cn": "按账号客户归并服务",
+        "description": "Implement customer consolidation by updating routing records for a specified account list",
+        "description_cn": "实现按账号列表执行客户归并，批量更新路由记录至目标客户",
+        "program_id": "CustomerConsolidationByAcctService",
+        "source_lines": [
+            "59-62",
+            "65-68",
+            "71-74",
+            "91-96",
+            "102-112"
+        ]
+    },
+    {
+        "element_name": "CreatePerCustInfo",
+        "element_name_cn": "个人客户开立服务（简版）",
+        "description": "Implement personal customer creation with deduplication and ID-card information extraction",
+        "description_cn": "实现个人客户开立，含重复校验及身份证信息自动提取",
+        "program_id": "CreatePersonalCustomerService",
+        "source_lines": [
+            "70-73",
+            "76-79",
+            "82-85",
+            "89-97",
+            "117-122"
+        ]
+    },
+    {
+        "element_name": "CrtPerCustInfo",
+        "element_name_cn": "个人客户开立服务（完整版）",
+        "description": "Implement full personal customer creation with comprehensive field validation and deduplication",
+        "description_cn": "实现完整个人客户开立，含全字段校验与重复性检查",
+        "program_id": "CreatePersonalCustomerFullService",
+        "source_lines": [
+            "94-101",
+            "110-115",
+            "142-162",
+            "166-183",
+            "187-193"
+        ]
+    },
+    {
+        "element_name": "MgmtCustAcctInfo",
+        "element_name_cn": "客户账户路由管理服务",
+        "description": "Manage customer account routing information supporting add, modify, and delete operations",
+        "description_cn": "管理客户账户路由信息，支持新增、修改和删除三种操作",
+        "program_id": "CustomerAccountInfoManageService",
+        "source_lines": [
+            "72-83",
+            "86-91",
+            "107-114",
+            "117-117",
+            "122-128"
+        ]
+    },
+    {
+        "element_name": "MgmtPerCustlnfo",
+        "element_name_cn": "个人客户信息维护服务",
+        "description": "Manage personal customer basic and extended information update with partial-update support",
+        "description_cn": "管理个人客户基础与扩展信息的更新，支持字段级局部修改",
+        "program_id": "PersonalCustomerInfoManageService",
+        "source_lines": [
+            "70-73",
+            "77-100",
+            "103-110",
+            "136-136",
+            "142-149"
+        ]
+    },
+    {
+        "element_name": "QuryCustAcctInfoByCustAcct",
+        "element_name_cn": "按账号查询客户账户路由服务",
+        "description": "Implement customer account routing information query by route value and route type",
+        "description_cn": "实现按路由值和路由类型查询客户账户路由信息",
+        "program_id": "QueryCustomerAccountByAcctService",
+        "source_lines": [
+            "140-144",
+            "147-151",
+            "154-158",
+            "180-187"
+        ]
+    },
+    {
+        "element_name": "QuryCustAcctInfoByCustNo",
+        "element_name_cn": "按客户号查询账户路由服务",
+        "description": "Implement customer account routing information query by customer number and route type",
+        "description_cn": "实现按客户号和路由类型查询客户账户路由信息",
+        "program_id": "QueryCustomerAccountByCustNoService",
+        "source_lines": [
+            "134-141",
+            "144-148"
+        ]
+    },
+    {
+        "element_name": "QuryCustInfo",
+        "element_name_cn": "客户基本信息查询服务",
+        "description": "Implement customer basic information query combining customer profile and risk level",
+        "description_cn": "实现客户基本信息查询，综合返回客户档案与风险等级信息",
+        "program_id": "QueryCustomerInfoService",
+        "source_lines": [
+            "152-168",
+            "206-213",
+            "266-275"
+        ]
+    }
+]
